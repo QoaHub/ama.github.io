@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<!-- saved from url=(0127)http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&level=testproject&allOptionsOn=1&format=0&id=104&form_token=0 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>testspec AMA ECUADOR – PORTAL MEDIADORES</title>
+<link type="text/css" rel="stylesheet" href="./testspec AMA ECUADOR – PORTAL MEDIADORES_files/tl_documents.css">
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<style>
+@media print {
+	.summary, #printedby, .pagefooter { display: none !important; } /* Limpiamos basura de TestLink */
+	body { margin: 0; padding: 0; }
+}
+</style>
+
+<div style="width: 100%; min-height: 95vh; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; page-break-after: always; background: white; color: #333;">
+
+<div style="width: 80%; text-align: right; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 60px;">
+<span style="font-size: 12px; color: #999; text-transform: uppercase; letter-spacing: 1px;">Partner Tech Community | QA Division</span>
+</div>
+
+<div style="margin-bottom: 30px; transition: all 0.3s ease;">
+<img src="https://partnertech.pe/images/logo/logoresponsive.png" 
+alt="Logo AMA Ecuador" 
+style="width: 380px; height: auto; filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.1));">
+</div>
+
+<div style="text-align: center;">
+<h1 style="color: #004a99; font-size: 48px; margin: 10px 0; text-transform: uppercase; letter-spacing: 4px; font-weight: 800;">
+Especificación de Pruebas
+</h1>
+<div style="width: 120px; height: 6px; background: linear-gradient(to right, #004a99, #00aaff); margin: 20px auto; border-radius: 3px;"></div>
+</div>
+
+<div style="margin-top: 20px; margin-bottom: 80px; text-align: center;">
+<p style="font-size: 18px; color: #666; margin-bottom: 5px; text-transform: uppercase;">Proyecto de Software:</p>
+<h2 style="font-size: 32px; color: #1a1a1a; font-weight: 600; margin: 0;">
+AMA ECUADOR – PORTAL MEDIADORES
+</h2>
+</div>
+
+<div style="width: 450px; background: #ffffff; padding: 30px; border-radius: 12px; border: 1px solid #e1e8ed; box-shadow: 0 10px 25px rgba(0,0,0,0.05); position: relative; overflow: hidden;">
+<div style="position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: #004a99;"></div>
+
+<table style="width: 100%; border-collapse: collapse; font-size: 15px;">
+<tr>
+<td style="padding: 8px 0; color: #666;"><strong>Responsable:</strong></td>
+<td style="padding: 8px 0; color: #333;">Cristhian Antony Huaman Poma</td>
+</tr>
+<tr>
+<td style="padding: 8px 0; color: #666;"><strong>Ambiente:</strong></td>
+<td style="padding: 8px 0; color: #333;"><span style="background: #eef2ff; color: #004a99; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">UAT / PORTAL</span></td>
+</tr>
+<tr>
+<td style="padding: 8px 0; color: #666;"><strong>Escenarios:</strong></td>
+<td style="padding: 8px 0; color: #333;">54 Casos de Prueba (Full Matrix)</td>
+</tr>
+<tr>
+<td style="padding: 8px 0; color: #666;"><strong>Estado:</strong></td>
+<td style="padding: 8px 0; color: #333; color: #10b981;">✔ En revisión</td>
+</tr>
+<tr>
+<td style="padding: 8px 0; color: #666;"><strong>Fecha:</strong></td>
+<td style="padding: 8px 0; color: #333;">Abril 2026</td>
+</tr>
+</table>
+</div>
+
+<div style="margin-top: 100px; color: #bbb; font-size: 11px; text-align: center;">
+Este documento es confidencial y propiedad de AMA Seguros Ecuador. <br>
+Generado automáticamente por el entorno de QA Automation.
+</div>
+
+</div>
+
+<div style="page-break-after: always;"></div>
+<h1 class="general" style="page-break-before: always">Tabla de Contenidos</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_1">1.Registro de Usuarios</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_1_1">1.1.Validar información usuario (p_valida_login)</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc141">AMAE-8: Campo número de identificación vacío</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc136">AMAE-7: Validación con todos los tipos de identificación – Persona Jurídica</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc133">AMAE-6: Validación con todos los tipos de identificación disponibles – Persona Natural</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc128">AMAE-5: Tipo identificación no compatible con tipo persona seleccionada</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc125">AMAE-4: Número de identificación no registrado en la aplicación</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc121">AMAE-3: Acceso exitoso cliente – Persona Natural, Pasaporte</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc117">AMAE-2: Acceso exitoso agente – Persona Jurídica, RUC</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc113">AMAE-1: Acceso exitoso agente – Persona Natural, Cédula</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_1_2">1.2.Alta usuario (p_alta_usuario)</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc149">AMAE-9: Alta exitosa de usuario agente</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc152">AMAE-10: Alta exitosa de usuario cliente</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc156">AMAE-11: p_alta_usuario NO se invoca si la validación falla</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc159">AMAE-12: Error en alta de usuario – respuesta con coderror != 0</a></p><br><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_2">2.Menús por Perfil de Acceso</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_2_1">2.1.Menú perfil Agente</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc164">AMAE-13: Agente ve menú Gestión &gt; Consulta de pólizas</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc167">AMAE-14: Agente ve Mi cuenta &gt; Datos Personales y Datos de acceso</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc170">AMAE-15: Agente NO ve menú Siniestros</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_2_2">2.2.Menú perfil Cliente</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc175">AMAE-16: Cliente ve menú Gestión &gt; Consulta de pólizas</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc178">AMAE-17: Cliente ve Siniestros &gt; Consulta de siniestros</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc182">AMAE-18: Cliente ve Mi cuenta con Datos Personales y Datos de acceso</a></p><br><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_3">3.Búsqueda / Filtros</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_3_1">3.1.Búsqueda por Pólizas</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc210">AMAE-26: Búsqueda con Nº certificado</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc207">AMAE-25: Botón Cancelar sale de la pantalla</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc204">AMAE-24: Búsqueda sin criterios – búsqueda general</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc200">AMAE-23: Búsqueda combinando Ramo + Producto + Nombre del asegurado</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc196">AMAE-22: Búsqueda por número de póliza</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc193">AMAE-21: Filtro por ramo Vehículos – carga productos dependientes</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc190">AMAE-20: Filtro por ramo Responsabilidad Civil – carga productos dependientes</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc187">AMAE-19: Carga del combo Código de agente al acceder a la pantalla</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_3_2">3.2.Búsqueda por Siniestros</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc213">AMAE-27: Carga correcta de campos en pantalla búsqueda siniestros</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc216">AMAE-28: Filtro por número de siniestro</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc220">AMAE-29: Búsqueda siniestros – producto dependiente de ramo</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc223">AMAE-30: Búsqueda siniestros sin criterios</a></p><br><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_4">4.Resultados de Búsqueda</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_4_1">4.1.Lista de pólizas (Por Póliza)</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc236">AMAE-31: Columnas correctas en resultado búsqueda pólizas</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc239">AMAE-32: Paginación limitada a 25 registros por página</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc243">AMAE-33: Botón Consulta redirige a detalle de póliza</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc246">AMAE-34: JSON retorna arrays polizas y siniestros correctamente</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_4_2">4.2.Lista de siniestros (Por Siniestro / Cliente)</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc249">AMAE-35: Pantalla resultado siniestros muestra tres secciones</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc252">AMAE-36: Sección TOMADORES muestra campos correctos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc255">AMAE-37: Sección SINIESTROS muestra campos correctos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc258">AMAE-38: Botón Consulta en siniestro redirige a detalle siniestro</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc261">AMAE-39: Paginación 25 registros en cada sección</a></p><br><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_5">5.Consulta de Póliza</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_5_1">5.1.Datos póliza y personas involucradas</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc264">AMAE-40: Sección Datos Póliza muestra todos los campos para Vehículos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc267">AMAE-41: Sección Datos Póliza correcta para Responsabilidad Civil</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc270">AMAE-42: Sección Tomador visible con datos correctos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc273">AMAE-43: Sección Asegurado – NO visible para colectivo administrado (madre) ni agrupado (madre)</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc276">AMAE-44: Sección Asegurado – visible para Vehículos con datos de Riesgos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc279">AMAE-45: Sección Pagador visible con datos correctos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc282">AMAE-46: Sección Receptor Factura visible</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc285">AMAE-47: Sección Conductores sólo visible para Vehículos – múltiples registros</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_5_2">5.2.Preguntas, Riesgo, Especialidad, Deducible, Observaciones, RIDE, Plan de C</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc288">AMAE-48: Preguntas Vehículos – todos los campos presentes</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc292">AMAE-49: Preguntas RC Colectiva – Tipo de Colectivo + Versión condicionado</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc295">AMAE-50: Riesgo Vehículos muestra datos del vehículo correctamente</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc299">AMAE-51: Especialidad sólo visible para RC Individual y Colectiva</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc302">AMAE-52: Deducible sólo visible para RC Sociedades Sanitarias</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc305">AMAE-53: Plan de Cuotas – cuotas pendientes anualidades anteriores y cuotas actuales no anuladas</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc308">AMAE-54: Sección Siniestros en Consulta Póliza lista siniestros vinculados</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc311">AMAE-55: RIDE – no visible para colectivo administrado (hijo) ni agrupado</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc315">AMAE-56: Procedure p_get_poliza – JSON retorna todos los campos definidos</a></p><br><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_6">6.Consulta de Siniestro</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_6_1">6.1.Datos Póliza en Consulta Siniestro</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc319">AMAE-57: Sección Datos Póliza muestra todos los campos requeridos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc323">AMAE-58: Datos de póliza tomados de [axissin006] Gestión siniestros</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_6_2">6.2.Datos Siniestro y Deducible</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc326">AMAE-59: Datos siniestro para Vehículos y Sociedad Sanitaria – campo Causas y Motivo Siniestro</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc329">AMAE-60: Datos siniestro Individual y Colectivo – campo Especialidad adicional</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc332">AMAE-61: Deducible sólo visible para Vehículos y RC Sociedad Sanitaria</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc335">AMAE-62: Procedure p_get_siniestro retorna JSON completo</a></p><br><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_7">7.Datos Personales</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_7_1">7.1.Tipo persona: Jurídica</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc338">AMAE-63: Datos generales persona jurídica visibles y correctos</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc341">AMAE-64: Sección Direcciones para persona jurídica muestra registros</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc344">AMAE-65: Sección Contactos para persona jurídica muestra registros</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_7_2">7.2.Tipo persona: Natural</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc347">AMAE-66: Datos generales persona natural – campos adicionales respecto a jurídica</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc350">AMAE-67: Sección Direcciones y Contactos para persona natural</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc353">AMAE-68: Procedure f_get_persona retorna JSON con arrays direcciones y contactos</a></p><br><p style="padding-left: 20px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_8">8.Pruebas No Funcionales</a></b></p>
+<p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_8_1">8.1.Seguridad y Logging</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc356">AMAE-69: Listener genera log con llamadas a BD, JSON y errores</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc359">AMAE-70: Usuario no autenticado no accede a pantallas privadas</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc362">AMAE-71: Datasource jdbc/AmaWebDs utilizado correctamente</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc366">AMAE-72: Agente no accede a datos de otro agente</a></p><p style="padding-left: 30px;"><b><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_8_2">8.2.Usabilidad</a></b></p>
+<p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc370">AMAE-73: Código de confirmación permite completar autenticación</a></p><p style="padding-left: 60px;"><a href="http://127.0.0.1:8090/lib/results/printDocument.php?type=testspec&amp;level=testproject&amp;allOptionsOn=1&amp;format=0&amp;id=104&amp;form_token=0#toc_tc373">AMAE-74: Mensajes de error mostrados en pantalla al usuario</a></p></div><h1 class="doclevel">Descripción</h1>
+<div class="txtlevel"><p><strong>AMA ECUADOR – PORTAL MEDIADORES</strong></p>
+
+<p>[MME-3615][AE-8808] Área Privada Bróker</p>
+
+<p><strong>Suites y Casos de Prueba – TestLink</strong></p></div>
+ <br><a name="toc_1"></a>
+<h1 class="doclevel">1.Suite de Pruebas : Registro de Usuarios</h1>
+<div><p>Cubre el proceso de registro, validación e identificación de usuarios en el portal (agentes y clientes). Incluye la invocación de los procedures pac_iax_web.p_valida_login y pac_iax_web.p_alta_usuario.</p>
+</div><a name="toc_1_1"></a>
+<h2 class="doclevel">1.1.Suite de Pruebas : Validar información usuario (p_valida_login)</h2>
+<a name="toc_tc141"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-8: Campo número de identificación vacío&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Sistema disponible.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Completar tipo usuario, tipo persona, tipo identificación. 2. Dejar número de identificación en blanco. 3. Confirmar.</p>
+</td><td><p>Sistema muestra validación de campo obligatorio. No se invoca el procedure.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="5">3</td><td></td><td></td></tr><tr><td width="5">4</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc136"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-7: Validación con todos los tipos de identificación – Persona Jurídica&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuarios registrados con cada tipo de identificación Jurídica.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>Repetir acceso con tipos: 64 (RUC), 65 (RUC Estatal), 68 (Identificación exterior).</p>
+</td><td><p>coderror=0 para todos. Tipos cargados correctamente.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="5">3</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc133"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-6: Validación con todos los tipos de identificación disponibles – Persona Natural&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuarios registrados con cada tipo de identificación Natural.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>Repetir acceso con cada tipo: 40 (Pasaporte), 63 (RUC), 66 (Cédula), 67 (RUC Extranjero), 68 (Identificación exterior).</p>
+</td><td><p>coderror=0 en todos los casos válidos. Los tipos se cargan correctamente según tipo persona.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc128"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-5: Tipo identificación no compatible con tipo persona seleccionada&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Sistema disponible.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Seleccionar tipo persona: Natural (1). 2. Intentar seleccionar tipo identificación 64 (RUC – sólo Jurídica).</p>
+</td><td><p>El tipo identificación 64 no aparece disponible para Persona Natural. Los tipos disponibles son: 40, 63, 66, 67, 68.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc125"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-4: Número de identificación no registrado en la aplicación&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Ningún usuario con ese número de identificación existe en la app.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Seleccionar cualquier combinación tipo usuario / tipo persona / tipo identificación. 2. Ingresar número de identificación inexistente. 3. Confirmar.</p>
+</td><td><p>coderror != 0. Campo 'error' contiene descripción del error. Mensaje mostrado en pantalla.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc121"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-3: Acceso exitoso cliente – Persona Natural, Pasaporte&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario cliente registrado con tipo persona Natural y Pasaporte (40).</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Tipo usuario: Cliente (C). 2. Tipo persona: Natural (1). 3. Tipo identificación: 40 – Pasaporte. 4. Ingresar número de pasaporte válido. 5. Confirmar.</p>
+</td><td><p>coderror=0. Correo y teléfono retornados.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc117"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-2: Acceso exitoso agente – Persona Jurídica, RUC&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario agente registrado con tipo persona Jurídica y tipo identificación RUC (64).</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Tipo usuario: Agente (A). 2. Tipo persona: Jurídica (2). 3. Tipo identificación: 64 – RUC. 4. Ingresar RUC válido. 5. Confirmar.</p>
+</td><td><p>coderror=0. Correo y teléfono retornados. Código enviado.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc113"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-1: Acceso exitoso agente – Persona Natural, Cédula&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario agente registrado en la app con tipo persona Natural y tipo identificación Cédula Ciudadanía (66).</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Seleccionar tipo usuario: Agente (A). 2. Seleccionar tipo persona: Natural (1). 3. Seleccionar tipo identificación: 66 – Cédula Ciudadanía. 4. Ingresar número de identificación válido. 5. Confirmar.</p>
+</td><td><p>coderror=0. Se retorna correo y teléfono del usuario. El sistema envía código de confirmación al correo registrado.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_1_2"></a>
+<h2 class="doclevel">1.2.Suite de Pruebas : Alta usuario (p_alta_usuario)</h2>
+<a name="toc_tc149"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-9: Alta exitosa de usuario agente&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario agente superó la validación p_valida_login y completó el proceso de confirmación por código.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Tras validación exitosa e ingreso de código, se invoca p_alta_usuario con pctipusu=A, tipo persona, tipo ide y num ide correspondientes. 2. Verificar respuesta.</p>
+</td><td><p>coderror=0. Usuario registrado en el sistema. Acceso habilitado.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc152"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-10: Alta exitosa de usuario cliente&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario cliente superó la validación y confirmación de código.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Se invoca p_alta_usuario con pctipusu=C. 2. Verificar respuesta.</p>
+</td><td><p>coderror=0. Usuario cliente creado. Acceso habilitado.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc156"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-11: p_alta_usuario NO se invoca si la validación falla&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario que no superó p_valida_login (coderror != 0).</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Simular fallo en p_valida_login. 2. Verificar que el sistema no llame a p_alta_usuario.</p>
+</td><td><p>p_alta_usuario no es invocado. No se crea ningún usuario. Log sin llamada al procedure.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc159"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-12: Error en alta de usuario – respuesta con coderror != 0&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Condición que provoque error en p_alta_usuario (p.ej. usuario ya existe).</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Intentar dar de alta usuario ya existente. 2. Verificar respuesta JSON.</p>
+</td><td><p>coderror != 0. Campo 'error' con descripción visible en pantalla.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_2"></a>
+<h1 class="doclevel">2.Suite de Pruebas : Menús por Perfil de Acceso</h1>
+<div><p>Verifica que los menús mostrados corresponden al perfil del usuario autenticado (Agente o Cliente) con sus opciones y sub-menús correctos.</p>
+</div><a name="toc_2_1"></a>
+<h2 class="doclevel">2.1.Suite de Pruebas : Menú perfil Agente</h2>
+<a name="toc_tc164"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-13: Agente ve menú Gestión &gt; Consulta de pólizas&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario autenticado como Agente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Autenticarse como agente. 2. Observar menú lateral.</p>
+</td><td><p>Menú muestra: Gestión &gt; Consulta de Pólizas. Al hacer clic redirige a pantalla Búsqueda/Filtros Por Pólizas.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc167"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-14: Agente ve Mi cuenta &gt; Datos Personales y Datos de acceso&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario autenticado como Agente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Autenticarse como agente. 2. Expandir Mi cuenta. 3. Verificar sub-ítems.</p>
+</td><td><p>Visible: Consulta de datos personales (redirige a datos personales) y Datos de acceso (redirige a datos acceso).</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc170"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-15: Agente NO ve menú Siniestros&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario autenticado como Agente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Autenticarse como agente. 2. Inspeccionar menú completo.</p>
+</td><td><p>1. Autenticarse como agente. 2. Inspeccionar menú completo.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="5">3</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_2_2"></a>
+<h2 class="doclevel">2.2.Suite de Pruebas : Menú perfil Cliente</h2>
+<a name="toc_tc175"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-16: Cliente ve menú Gestión &gt; Consulta de pólizas&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario autenticado como Cliente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Autenticarse como cliente. 2. Observar menú.</p>
+</td><td><p>Visible: Gestión &gt; Consulta de Pólizas. Clic redirige a búsqueda de pólizas.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc178"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-17: Cliente ve Siniestros &gt; Consulta de siniestros&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario autenticado como Cliente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Autenticarse como cliente. 2. Expandir Siniestros.</p>
+</td><td><p>Visible: Consulta de siniestros. Clic redirige a búsqueda/filtro de siniestros.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc182"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-18: Cliente ve Mi cuenta con Datos Personales y Datos de acceso&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario autenticado como Cliente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Autenticarse como cliente. 2. Expandir Mi cuenta.</p>
+</td><td><p>Sub-ítems visibles: Consulta de datos personales y Datos de acceso con redirecciones correctas.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_3"></a>
+<h1 class="doclevel">3.Suite de Pruebas : Búsqueda / Filtros</h1>
+<div><p>Verifica los formularios de búsqueda de pólizas y siniestros, la carga de combos dependientes, la invocación de pac_iax_web.p_get_polssins y la validación de campos.</p>
+</div><a name="toc_3_1"></a>
+<h2 class="doclevel">3.1.Suite de Pruebas : Búsqueda por Pólizas</h2>
+<a name="toc_tc210"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-26: Búsqueda con Nº certificado&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza con certificado existente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ingresar número de certificado válido. 2. Pulsar Buscar.</p>
+</td><td><p>p_get_polssins recibe pncertif con valor correcto. Resultados filtrados por certificado.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc207"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-25: Botón Cancelar sale de la pantalla&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Pantalla de búsqueda abierta.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Pulsar Cancelar.</p>
+</td><td><p>El sistema sale de la pantalla de búsqueda sin ejecutar búsqueda.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Baja</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc204"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-24: Búsqueda sin criterios – búsqueda general&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Agente autenticado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. No ingresar ningún filtro. 2. Pulsar Buscar.</p>
+</td><td><p>Se invocan p_get_polssins con parámetros nulos/vacíos. Se listan todas las pólizas disponibles para el agente (paginadas a 25 por página).</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc200"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-23: Búsqueda combinando Ramo + Producto + Nombre del asegurado&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Datos de prueba disponibles.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Seleccionar ramo y producto. 2. Ingresar nombre parcial del tomador/asegurado. 3. Seleccionar radiobutton Tomador o Asegurado. 4. Pulsar Buscar.</p>
+</td><td><p>p_get_polssins invocado con parámetros correctos (pcasetom = T o A). Resultados filtrados.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc196"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-22: Búsqueda por número de póliza&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza existente en el sistema.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ingresar número de póliza válido en campo Nº Póliza. 2. Pulsar Buscar.</p>
+</td><td><p>Se invoca p_get_polssins. Resultados filtrados por número de póliza. Lista de pólizas correspondiente.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc193"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-21: Filtro por ramo Vehículos – carga productos dependientes&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Pantalla de búsqueda por pólizas abierta.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Seleccionar Ramo: Vehículos. 2. Observar combo Producto.</p>
+</td><td><p>Producto muestra únicamente: VEHÍCULOS INDIVIDUAL.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc190"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-20: Filtro por ramo Responsabilidad Civil – carga productos dependientes&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Pantalla de búsqueda por pólizas abierta.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Seleccionar Ramo: Responsabilidad Civil. 2. Observar combo Producto.</p>
+</td><td><p>Producto muestra: R.C. PROF. DE LA SALUD – COLECTIVOS, R.C. PROF. DE LA SALUD – INDIVIDUAL, R.C. SOCIEDADES SANITARIAS.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc187"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-19: Carga del combo Código de agente al acceder a la pantalla&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Agente autenticado. Procedure f_datos_usuario disponible.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Navegar a Gestión &gt; Consulta de pólizas. 2. Verificar que el combo Código de agente se cargue antes de acceder a la pantalla.</p>
+</td><td><p>Combo Código de agente precargado con las claves comerciales del agente (nagente). El procedure f_datos_usuario es invocado antes de mostrar el formulario.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_3_2"></a>
+<h2 class="doclevel">3.2.Suite de Pruebas : Búsqueda por Siniestros</h2>
+<a name="toc_tc213"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-27: Carga correcta de campos en pantalla búsqueda siniestros&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario cliente autenticado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Navegar a Siniestros &gt; Consulta de siniestros. 2. Verificar campos disponibles.</p>
+</td><td><p>Pantalla muestra: Ramo, Producto (dependiente de Ramo), Nº Póliza, Nº Certificado, Nº Siniestro, Número de identificación, Nombre, radiobuttons Tomador/Asegurado.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc216"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-28: Filtro por número de siniestro&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Siniestro existente vinculado a póliza vigente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ingresar Nº siniestro válido. 2. Pulsar Buscar</p>
+</td><td><p>p_get_polssins recibe pnsinies correcto. Resultado muestra el siniestro correspondiente.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc220"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-29: Búsqueda siniestros – producto dependiente de ramo&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Pantalla de búsqueda por siniestros abierta.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Seleccionar Ramo. 2. Verificar que Producto se actualice según ramo seleccionado.</p>
+</td><td><p>Mismo comportamiento que en búsqueda por pólizas: productos filtrados por ramo (7=Vehículos, 21=RC).</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc223"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-30: Búsqueda siniestros sin criterios&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Cliente autenticado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Pulsar Buscar sin ingresar filtros.</p>
+</td><td><p>Se listan todos los siniestros asociados al cliente, respetando la paginación de 25 registros.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_4"></a>
+<h1 class="doclevel">4.Suite de Pruebas : Resultados de Búsqueda</h1>
+<div><p>Verifica la correcta visualización de resultados de pólizas y siniestros, la paginación y los datos del JSON devuelto.</p>
+</div><a name="toc_4_1"></a>
+<h2 class="doclevel">4.1.Suite de Pruebas : Lista de pólizas (Por Póliza)</h2>
+<a name="toc_tc236"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-31: Columnas correctas en resultado búsqueda pólizas&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Búsqueda ejecutada con resultados.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ejecutar búsqueda válida. 2. Verificar columnas en la tabla de resultados.</p>
+</td><td><p>Tabla muestra columnas: Nº Póliza, Nombre del asegurado, F. Efecto, F. Renovación, F. Baja, Estado póliza, Producto, Código Agente, botón Consulta.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc239"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-32: Paginación limitada a 25 registros por página&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Búsqueda con más de 25 resultados.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ejecutar búsqueda que retorne más de 25 pólizas. 2. Verificar paginación.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td><td><p>Primer listado muestra máximo 25 registros. Control de paginación disponible para navegar.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc243"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-33: Botón Consulta redirige a detalle de póliza&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Resultado de búsqueda con al menos un registro.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Pulsar botón Consulta de una póliza en la lista.</p>
+</td><td><p>El usuario es redirigido a la pantalla de Consulta Póliza con los datos de la póliza seleccionada (sseguro pasado correctamente).</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc246"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-34: JSON retorna arrays polizas y siniestros correctamente&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Log activo del listener ls-ama-web.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ejecutar búsqueda. 2. Verificar log del listener con JSON devuelto.</p>
+</td><td><p>JSON contiene arrays polizas (sseguro, npoliza, vasegurado, fefecto, fvencim, fbaja, vestpol, vproducto, cagente) y siniestros (sseguro, npoliza, vproducto, nsinies, focurrencia, frecepcion, vestsin).</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Automatizada</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_4_2"></a>
+<h2 class="doclevel">4.2.Suite de Pruebas : Lista de siniestros (Por Siniestro / Cliente)</h2>
+<a name="toc_tc249"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-35: Pantalla resultado siniestros muestra tres secciones&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Cliente con pólizas como tomador, asegurado y siniestros.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ejecutar búsqueda de siniestros. 2. Verificar secciones de la pantalla.</p>
+</td><td><p>Pantalla dividida en: TOMADORES, ASEGURADOS, SINIESTROS con columnas propias para cada sección.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc252"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-36: Sección TOMADORES muestra campos correctos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Cliente es tomador en al menos una póliza.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Verificar columnas en sección TOMADORES.</p>
+</td><td><p>Columnas visibles: Producto, Nº Póliza, F. Efecto, F. Renovación, F. Anulación, Estado, Estado Firma Anualidad, Agente, Consulta.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc255"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-37: Sección SINIESTROS muestra campos correctos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Cliente con siniestros asociados.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Verificar columnas en sección SINIESTROS.</p>
+</td><td><p>Columnas: Producto, Nº Póliza, Nº Siniestro, F. Ocurrencia, F. Recepción, Estado, Consulta.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc258"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-38: Botón Consulta en siniestro redirige a detalle siniestro&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Siniestro listado en resultados.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Pulsar botón Consulta en un siniestro.</p>
+</td><td><p>Redirigido a pantalla Consulta de Siniestro con datos del siniestro seleccionado.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc261"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-39: Paginación 25 registros en cada sección&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Cliente con más de 25 registros en alguna sección.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Verificar paginación en TOMADORES, ASEGURADOS y SINIESTROS.</p>
+</td><td><p>Cada sección pagina a 25 registros. Controles de paginación independientes.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_5"></a>
+<h1 class="doclevel">5.Suite de Pruebas : Consulta de Póliza</h1>
+<div><p>Verifica la pantalla de detalle de póliza: datos generales, tomador, asegurado, pagador, receptor factura, conductores, preguntas, riesgo, especialidad, deducible, observaciones, RIDE, plan de cuotas y siniestros.</p>
+</div><a name="toc_5_1"></a>
+<h2 class="doclevel">5.1.Suite de Pruebas : Datos póliza y personas involucradas</h2>
+<a name="toc_tc264"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-40: Sección Datos Póliza muestra todos los campos para Vehículos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza de producto Vehículos Individual existente.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Póliza de una póliza Vehículos. 2. Verificar sección Datos Póliza.</p>
+</td><td><p>Visibles: Nº de póliza, Nº certificado, Estado, Producto, F. efecto, F. anulación, F. renovación, Agente (código y descripción), Estado firma anualidad.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc267"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-41: Sección Datos Póliza correcta para Responsabilidad Civil&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza de RC existente (Colectiva, Individual o Sociedad Sanitaria).</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Póliza de póliza RC. 2. Verificar sección Datos Póliza.</p>
+</td><td><p>Mismos campos que Vehículos. Producto refleja el tipo RC correspondiente.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc270"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-42: Sección Tomador visible con datos correctos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza con tomador registrado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Póliza. 2. Verificar sección Tomador.</p>
+</td><td><p>Visible: Tipo identificación, Nº identificación, Nombre del tomador.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc273"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-43: Sección Asegurado – NO visible para colectivo administrado (madre) ni agrupado (madre)&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza de tipo colectivo administrado (madre) o agrupado (madre)</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Póliza de póliza tipo madre. 2. Verificar que la sección Asegurado no aparezca.</p>
+</td><td><p>Sección Asegurado no se muestra en pantalla para los tipos madre.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc276"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-44: Sección Asegurado – visible para Vehículos con datos de Riesgos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza de Vehículos Individual.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Póliza de Vehículos. 2. Verificar sección Asegurado.</p>
+</td><td><p>Tipo identificación, Nº identificación y Nombre tomados de sección Riesgos &gt; Asegurado de la app.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc279"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-45: Sección Pagador visible con datos correctos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza con pagador registrado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza. 2. Verificar sección Pagador.</p>
+</td><td><p>Tipo identificación, Nº identificación, Nombre del pagador correctos.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc282"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-46: Sección Receptor Factura visible&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza con receptor de factura.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza. 2. Verificar sección Receptor Factura.</p>
+</td><td><p>Tipo identificación, Nº identificación, Nombre del receptor de factura.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc285"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-47: Sección Conductores sólo visible para Vehículos – múltiples registros&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza Vehículos con más de un conductor (habitual y ocasional).</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza Vehículos. 2. Verificar sección Conductores</p>
+</td><td><p>Sección visible con lista de conductores (habituales y ocasionales). Sección NO aparece para RC.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_5_2"></a>
+<h2 class="doclevel">5.2.Suite de Pruebas : Preguntas, Riesgo, Especialidad, Deducible, Observaciones, RIDE, Plan de C</h2>
+<a name="toc_tc288"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-48: Preguntas Vehículos – todos los campos presentes&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza Vehículos Individual.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza Vehículos. 2. Verificar sección Preguntas.</p>
+</td><td><p>Visibles: ¿Versión de condicionado? (preg 4748), Tipo de Producto (preg 9822), Amparo patrimonial completo (preg 9823), Póliza con otra compañía (preg 9826), Carro adquirido sobre régimen de discapacidad (preg 9835).</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc292"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-49: Preguntas RC Colectiva – Tipo de Colectivo + Versión condicionado&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza RC Colectiva.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza RC Colectiva. 2. Verificar sección Preguntas.</p>
+</td><td><p>Visibles: Tipo de Colectivo (preg 4092) y ¿Versión de condicionado? (preg 4748). Solo estas dos.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc295"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-50: Riesgo Vehículos muestra datos del vehículo correctamente&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza Vehículos con vehículo registrado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza Vehículos. 2. Verificar sección Riesgo.</p>
+</td><td><p>Visibles: Placa, Marca, Modelo, Descripción, Año de fabricación, F. efecto, Capital (suma de Valor asegurado + Importe total accesorios)</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc299"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-51: Especialidad sólo visible para RC Individual y Colectiva&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Pólizas RC Individual y Colectiva.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar pólizas RC Individual y Colectiva. 2. Verificar que sección Especialidad sea visible. 3. Consultar RC Sociedad Sanitaria. 4. Verificar que no aparezca.</p>
+</td><td><p>Sección Especialidad visible para Individual y Colectiva. No visible para Sociedad Sanitaria ni tipos madre.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc302"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-52: Deducible sólo visible para RC Sociedades Sanitarias&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza RC Sociedad Sanitaria.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza RC Sociedad Sanitaria. 2. Verificar sección Deducible.</p>
+</td><td><p>Sección Deducible visible únicamente para RC Sociedad Sanitaria. No presente en Vehículos ni RC Individual/Colectiva.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc305"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-53: Plan de Cuotas – cuotas pendientes anualidades anteriores y cuotas actuales no anuladas&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza con cuotas en diferentes estados.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza. 2. Verificar sección Plan de Cuotas.</p>
+</td><td><p>Muestra cuotas pendientes de anualidades anteriores + todas las cuotas de la anualidad en curso EXCEPTO las anuladas. No aparece para tipos hijo/madre excluidos.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc308"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-54: Sección Siniestros en Consulta Póliza lista siniestros vinculados&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Póliza con siniestros registrados.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza. 2. Verificar sección Siniestros.</p>
+</td><td><p>Lista con: Nº siniestro, F. Ocurrencia, F. Recepción, Deducible, Estado, Descripción. No visible para tipos madre.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc311"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-55: RIDE – no visible para colectivo administrado (hijo) ni agrupado&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Pólizas de tipos excluidos.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Consultar póliza de tipo colectivo administrado (hijo) o agrupado (madre). 2. Verificar sección RIDE.</p>
+</td><td><p>Sección RIDE no se muestra para estos tipos.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc315"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-56: Procedure p_get_poliza – JSON retorna todos los campos definidos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Log listener activo.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Póliza. 2. Revisar log con JSON de respuesta.</p>
+</td><td><p>JSON contiene todos los campos del spec: npoliza, ncertif, vestpol, vproducto, fefecto, fbaja, frenov, nagente, vagente, vestfirma, datos tomador, asegurado, pagador, receptor factura, conductores, preguntas, riesgo, vdeduciblepol, obsespeciales (array), ride (array), plancuotas (array), siniestros (array).</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_6"></a>
+<h1 class="doclevel">6.Suite de Pruebas : Consulta de Siniestro</h1>
+<div><p>Verifica la pantalla de detalle del siniestro: datos de la póliza vinculada, datos del siniestro (diferenciados por producto) y deducible. Valida pac_iax_web.p_get_siniestro.</p>
+</div><a name="toc_6_1"></a>
+<h2 class="doclevel">6.1.Suite de Pruebas : Datos Póliza en Consulta Siniestro</h2>
+<a name="toc_tc319"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-57: Sección Datos Póliza muestra todos los campos requeridos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Siniestro existente vinculado a póliza.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Siniestro. 2. Verificar sección Datos Póliza.</p>
+</td><td><p>Visibles: Nº de póliza, Nº certificado, Situación, Producto, F. efecto, F. anulación, F. renovación, Tomador, Asegurado.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc323"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-58: Datos de póliza tomados de [axissin006] Gestión siniestros&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Datos de la póliza correctamente registrados en la app.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Comparar datos en Consulta Siniestro con los datos en [axissin006].</p>
+</td><td><p>Todos los campos coinciden con los valores de [axissin006].</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_6_2"></a>
+<h2 class="doclevel">6.2.Suite de Pruebas : Datos Siniestro y Deducible</h2>
+<a name="toc_tc326"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-59: Datos siniestro para Vehículos y Sociedad Sanitaria – campo Causas y Motivo Siniestro&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Siniestro de producto Vehículos o RC Sociedad Sanitaria.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Siniestro de Vehículos. 2. Verificar sección Datos Siniestro.</p>
+</td><td><p>Visibles: Siniestro, Fecha ocurrencia, Fecha recepción, Estado, Causas, Motivo Siniestro, Descripción siniestro.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc329"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-60: Datos siniestro Individual y Colectivo – campo Especialidad adicional&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Siniestro de RC Individual o Colectiva.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Siniestro RC Individual/Colectiva. 2. Verificar sección Datos Siniestro.</p>
+</td><td><p>Visibles los mismos campos que Vehículos/Sociedad Sanitaria + campo adicional Especialidad.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc332"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-61: Deducible sólo visible para Vehículos y RC Sociedad Sanitaria&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Siniestros de distintos productos.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Verificar sección Deducible para Vehículos → debe aparecer. 2. Verificar para RC Individual → no debe aparecer.</p>
+</td><td><p>Sección Deducible (Descripción e Importe) visible únicamente para Vehículos y RC Sociedad Sanitaria.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc335"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-62: Procedure p_get_siniestro retorna JSON completo&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Log activo.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Consulta Siniestro. 2. Revisar log.</p>
+</td><td><p>JSON contiene: npoliza, ncertif, vestpol, vproducto, fefecto, fbaja, frenov, vtomador, vasegurado, nsinies, focurrencia, frecepcion, vestsin, vcausasin, vmotivosin, vdescsin, vespecialidad, vdeducible, ndeducible.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_7"></a>
+<h1 class="doclevel">7.Suite de Pruebas : Datos Personales</h1>
+<div><p>&nbsp;Verifica la pantalla de datos personales del usuario para personas jurídicas y naturales. Valida pac_iax_web.f_get_persona.</p>
+</div><a name="toc_7_1"></a>
+<h2 class="doclevel">7.1.Suite de Pruebas : Tipo persona: Jurídica</h2>
+<a name="toc_tc338"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-63: Datos generales persona jurídica visibles y correctos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario de tipo persona Jurídica autenticado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Navegar a Mi cuenta &gt; Datos Personales. 2. Verificar sección Datos generales.</p>
+</td><td><p>Visibles: Tipo Persona, Tipo Identificación, Número de identificación, Razón social, Fecha de constitución.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc341"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-64: Sección Direcciones para persona jurídica muestra registros&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Persona jurídica con direcciones registradas.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ver sección Direcciones en Datos Personales.</p>
+</td><td><p>Lista con: Código, Tipo de dirección, Dirección, Cantón, Provincia, País. Puede haber múltiples registros.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc344"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-65: Sección Contactos para persona jurídica muestra registros&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Persona jurídica con contactos registrados.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ver sección Contactos en Datos Personales.</p>
+</td><td><p>Lista con: Código, Tipo contacto, Valor contacto. Puede haber múltiples registros.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_7_2"></a>
+<h2 class="doclevel">7.2.Suite de Pruebas : Tipo persona: Natural</h2>
+<a name="toc_tc347"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-66: Datos generales persona natural – campos adicionales respecto a jurídica&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario de tipo persona Natural autenticado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Navegar a Mi cuenta &gt; Datos Personales. 2. Verificar sección Datos generales.</p>
+</td><td><p>Visibles: Tipo Persona, Tipo Identificación, Número de identificación, Nombre, Segundo nombre, 1º Apellido, 2º Apellido, Género, Fecha nacimiento, Estado civil.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc350"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-67: Sección Direcciones y Contactos para persona natural&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Persona natural con direcciones y contactos.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ver secciones Direcciones y Contactos.</p>
+</td><td><p>Misma estructura que persona jurídica. Múltiples registros posibles en ambas secciones.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc353"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-68: Procedure f_get_persona retorna JSON con arrays direcciones y contactos&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Log activo.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Acceder a Datos Personales. 2. Revisar log.</p>
+</td><td><p>JSON incluye: persona (datos básicos), direcciones (array: cdomici, vtipdir, vdomici, vcanton, vprovin, vpais), contactos (array: cmodcon, vtipcon, vcontacto).</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_8"></a>
+<h1 class="doclevel">8.Suite de Pruebas : Pruebas No Funcionales</h1>
+<div><p>Cubre aspectos de seguridad, logging, rendimiento básico y usabilidad del portal.</p>
+</div><a name="toc_8_1"></a>
+<h2 class="doclevel">8.1.Suite de Pruebas : Seguridad y Logging</h2>
+<a name="toc_tc356"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-69: Listener genera log con llamadas a BD, JSON y errores&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Listener ls-ama-web activo. Archivo .log configurado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ejecutar operaciones en el portal (búsqueda, consulta). 2. Verificar archivo .log.</p>
+</td><td><p>Log contiene: llamadas realizadas a BD, JSON devuelto en cada respuesta, errores Java producidos.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc359"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-70: Usuario no autenticado no accede a pantallas privadas&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Sin sesión activa.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Intentar acceder directamente a URL de búsqueda/consulta sin autenticación.</p>
+</td><td><p>Sistema redirige al login. No muestra datos de pólizas ni siniestros.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc362"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-71: Datasource jdbc/AmaWebDs utilizado correctamente&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Aplicación desplegada con datasource configurado.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Verificar configuración de datasource. 2. Ejecutar operación que consulte BD.</p>
+</td><td><p>La conexión utiliza jdbc/AmaWebDs. No se producen errores de conexión.</p>
+</td></tr><tr><td width="5">2</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc366"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-72: Agente no accede a datos de otro agente&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Dos agentes con códigos comerciales distintos.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Autenticarse como Agente A. 2. Intentar consultar pólizas del Agente B manipulando parámetros.</p>
+</td><td><p>El sistema filtra resultados exclusivamente por las claves comerciales del agente autenticado.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_8_2"></a>
+<h2 class="doclevel">8.2.Suite de Pruebas : Usabilidad</h2>
+<a name="toc_tc370"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-73: Código de confirmación permite completar autenticación&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Usuario que superó validación inicial recibe código por correo.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Ingresar código recibido. 2. Confirmar.</p>
+</td><td><p>Acceso habilitado tras validación exitosa del código. Flujo: identificación → validación → código → acceso.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+<a name="toc_tc373"></a><p>&nbsp;</p><div> <table class="tc" width="90%"><tbody><tr><th colspan="4">Caso de Prueba AMAE-74: Mensajes de error mostrados en pantalla al usuario&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">admin</td></tr>
+<tr><td colspan="4"><span class="label">Precondiciones:</span><br><p>Condición de error en cualquier procedure.</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>1. Provocar error en cualquier operación. 2. Verificar qué se muestra en pantalla.</p>
+</td><td><p>Campo 'error' del JSON mostrado al usuario de forma legible. No se muestran errores técnicos ni stack traces.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requisitos</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</tbody></table>
+</div>
+
+
+</body></html>
